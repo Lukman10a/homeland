@@ -2,9 +2,9 @@ import React from "react";
 
 export default function NewsLetter() {
   return (
-    <div className="flex flex-col text-center gap-20 p-28">
+    <div className="flex flex-col text-center gap-20 p-28 md:p-20 sm:p-10">
       <div className="space-y-4">
-        <h1 className="text-[#000929] font-bold text-4xl">
+        <h1 className="text-[#000929] font-bold text-4xl sm:text-3xl">
           Subscribe to our Newsletter
         </h1>
         <p className="text-base text-[#000929]">

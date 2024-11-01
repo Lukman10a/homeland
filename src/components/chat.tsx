@@ -20,9 +20,9 @@ export default function Chat() {
         <Image
           src={googleplay}
           alt={"googleplay"}
-          className="md:w-52 sm:w-32"
+          className="md:w-52 sm:w-24"
         />
-        <Image src={appstore} alt={"appstore"} className="md:w-52 sm:w-32" />
+        <Image src={appstore} alt={"appstore"} className="md:w-52 sm:w-24" />
       </div>
       <Image src={iPhone} alt={"iPhone"} />
     </div>
