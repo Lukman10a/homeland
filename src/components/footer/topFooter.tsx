@@ -27,7 +27,7 @@ const Footer: React.FC = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-3 gap-20 md:grid-cols-2 sm:grid-cols-1">
+        <div className="grid grid-cols-3 gap-20 md:grid-cols-2">
           {Object.entries(links).map(([title, items]) => (
             <div key={title} className="space-y-4">
               <h3 className="text-gray-900 font-bold ">
