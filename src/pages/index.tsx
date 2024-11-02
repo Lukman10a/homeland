@@ -10,10 +10,10 @@ export default function Home() {
       <div className="bg-[#27CD40] grid grid-cols-2 place-items-center lg:gap-4 p-20 md:p-10 sm:p-4">
         <Image src={transparency} alt="transparency" />
         <div className="text-white space-y-8 md:space-y-4 sm:space-y-2">
-          <h1 className="font-bold text-4xl md:text-3xl sm:text-2xl">
+          <h1 className="font-bold text-4xl md:text-2xl sm:text-lg">
             Experience our transparent budget spending process
           </h1>
-          <p className="font-medium text-base">
+          <p className="font-medium text-base sm:text-xs">
             designed to eliminate waste and promote efficiency. By incorporating
             empiricism and lean thinking, we ensure your budget is optimized and
             effectively managed throughout your project.
