@@ -22,12 +22,12 @@ export default function Home() {
             <Image
               src={googleplay}
               alt={"googleplay"}
-              className="md:w-32 sm:w-24"
+              className="md:w-32 sm:w-12"
             />
             <Image
               src={appstore}
               alt={"appstore"}
-              className="md:w-32 sm:w-24"
+              className="md:w-32 sm:w-12"
             />
           </div>
         </div>
