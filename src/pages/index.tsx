@@ -7,13 +7,13 @@ export default function Home() {
   return (
     <div>
       {/* <Hero /> */}
-      <div className="bg-[#27CD40] grid grid-cols-2 sm:grid-cols-1 place-items-center lg:gap-6 p-20 md:p-10 sm:p-4">
+      <div className="bg-[#27CD40] grid grid-cols-2 sm:grid-cols-1 place-items-center lg:gap-6 p-20 md:p-10 sm:p-6">
         <Image src={transparency} alt="transparency" />
         <div className="text-white space-y-8 md:space-y-4 sm:space-y-2">
           <h1 className="font-bold text-4xl md:text-2xl ">
             Experience our transparent budget spending process
           </h1>
-          <p className="font-medium text-base ">
+          <p className="font-medium md:text-lg sm:text-base ">
             designed to eliminate waste and promote efficiency. By incorporating
             empiricism and lean thinking, we ensure your budget is optimized and
             effectively managed throughout your project.
