@@ -1,33 +1,3 @@
-// import Image from "next/image";
-// import React from "react";
-// import logo from "../../../public/svg/logo.svg";
-
-// export default function Navbar() {
-//   return (
-//     <nav className="flex justify-between items-center p-8 border-b-2 border-[#F0EFFB]">
-//       <div className="flex gap-10">
-//         <Image src={logo} alt="logo" />
-//         <ul className="flex items-center gap-10">
-//           <li>Build</li>
-//           <li>Manage</li>
-//           <li>Enlist</li>
-//           <li>Lease</li>
-//           <li>About us</li>
-//         </ul>
-//       </div>
-//       <div className="flex gap-4">
-//         <button className="border-2 border-[#1F2023] rounded-xl p-2 px-5">
-//           Login
-//         </button>
-//         <button className="bg-[#27CD40] text-white rounded-xl p-2 px-5">
-//           Sign up
-//         </button>
-//       </div>
-//     </nav>
-//   );
-// }
-
-// Navbar.tsx
 import React, { useState } from "react";
 import {
   NavigationMenu,
